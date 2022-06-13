@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>calculator</title>
+</head>
+<body>
+     <!-- note: no css  -->
+     <div class="calculator">
+        <h1 class="project-js-title">calculator</h1>
+        <div class="calculator-container">
+            <div>
+               <input class="calInput" type="text" placeholder="0">
+            </div>
+            <div class="calBtnContainer">
+                <button onclick="digits('7')" class="calBtn digits">7</button>
+                <button onclick="digits('8')" class="calBtn digits">8</button>
+                <button onclick="digits('9')" class="calBtn digits">9</button>
+                <button onclick="digits('+')" class="calBtn operator">+</button>
+                <button onclick="digits('4')" class="calBtn digits">4</button>
+                <button onclick="digits('5')" class="calBtn digits">5</button>
+                <button onclick="digits('6')" class="calBtn digits">6</button>
+                <button onclick="digits('-')" class="calBtn operator">-</button>
+                <button onclick="digits('1')" class="calBtn digits">1</button>
+                <button onclick="digits('2')" class="calBtn digits">2</button>
+                <button onclick="digits('3')" class="calBtn digits">3</button>
+                <button onclick="digits('*')" class="calBtn operator">*</button>
+                <button onclick="digits('0')" class="calBtn digits">0</button>
+                <button onclick="Clear()" class="calBtn clear">C</button>
+                <button onclick="equals()" class="calBtn equals">=</button>
+                <button onclick="digits('/')" class="calBtn operator">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
